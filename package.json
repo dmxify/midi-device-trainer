@@ -1,0 +1,29 @@
+{
+  "name": "midi-device-trainer",
+  "version": "0.2.0",
+  "description": "Node.js module to capture & analyze MIDI messages from a MIDI input device, and return results for saving.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmxify/midi-device-trainer.git"
+  },
+  "keywords": [
+    "midi",
+    "controller",
+    "hid"
+  ],
+  "author": "Jason Banfield",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmxify/midi-device-trainer/issues"
+  },
+  "homepage": "https://github.com/dmxify/midi-device-trainer#readme",
+  "dependencies": {
+    "js-stopwatch": "^1.0.5",
+    "midi-device": "^0.1.3",
+    "midi-device-control": "^0.1.2"
+  }
+}
